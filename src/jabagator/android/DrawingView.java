@@ -42,7 +42,7 @@ public class DrawingView extends View {
             return false;
         }
     };
-    final OnTouchListener drawRectangleistener = new OnTouchListener() {
+    final OnTouchListener drawRectangleListener = new OnTouchListener() {
         @Override
         public boolean onTouch(View v, MotionEvent event) {
             return false;
@@ -182,7 +182,7 @@ public class DrawingView extends View {
             setOnTouchListener(drawRectangleListener);
             break;
         case DRAW_OVAL:
-            setOnTouchListener(drawOvalleListener);
+            setOnTouchListener(drawOvalListener);
             break;
         default:
             throw new IllegalStateException("Unknown MotionMode " + motionMode);
