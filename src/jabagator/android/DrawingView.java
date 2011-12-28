@@ -21,7 +21,7 @@ import android.view.View;
  */
 public class DrawingView extends View {
     
-    private static final float STROKE_WIDTH = 5f;
+    private static final float STROKE_WIDTH = 2f;
 
     /** Need to track this so the dirty region can accommodate the stroke. **/
     private static final float HALF_STROKE_WIDTH = STROKE_WIDTH / 2;
