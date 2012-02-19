@@ -165,7 +165,7 @@ public class DrawingView extends View {
 
     /**
      * Sets the DrawingView into one of several modes, such
-     * as "select" mode (e.g., for moving or resizeing objects), 
+     * as "select" mode (e.g., for moving or resizing objects), 
      * or "Draw polyline" (smooth curve), "draw rectangle", etc.
      * Can be called from our constructor as well as from the toolbar, etc.
      * MotionMode is JabaGator's view mode enumeration.
