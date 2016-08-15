@@ -1,0 +1,4 @@
+= jabagator.android
+
+A very crude drawing program, only on github becuase a few of its codes are
+referred to in the printed edition of https://androidcookbook.com/[Android Cookbook]].
