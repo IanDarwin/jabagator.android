@@ -2,3 +2,16 @@
 
 A very crude drawing program, only on github becuase a few of its codes are
 referred to in the printed edition of https://androidcookbook.com/[Android Cookbook]].
+
+As it says in the project header, you *must* do the following before building:
+
+. cd ..
+. git clone https://github.com/IanDarwin/jabagator
+. cd jabagator
+. mvn install
+
+Now you can try this:
+
+. cd ../jabagator.android
+. mvn package # or whatever
+
